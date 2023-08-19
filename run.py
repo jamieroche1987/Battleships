@@ -12,11 +12,11 @@ def computer_board():
     Function for the computer that places 5 ships randomly
     """
     board = {
-        '1A':' ', '2A':' ', '3A':' ', '4A':' ', '5A':' ',
-        '1B':' ', '2B':' ', '3B':' ', '4B':' ', '5B':' ',
-        '1C':' ', '2C':' ', '3C':' ', '4C':' ', '5C':' ',
-        '1D':' ', '2D':' ', '3D':' ', '4D':' ', '5D':' ',
-        '1E':' ', '2E':' ', '3E':' ', '4E':' ', '5E':' ',
+        '1A': ' ', '2A': ' ', '3A': ' ', '4A': ' ', '5A': ' ',
+        '1B': ' ', '2B': ' ', '3B': ' ', '4B': ' ', '5B': ' ',
+        '1C': ' ', '2C': ' ', '3C': ' ', '4C': ' ', '5C': ' ',
+        '1D': ' ', '2D': ' ', '3D': ' ', '4D': ' ', '5D': ' ',
+        '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
     fleet_battle = random.sample(board.keys(), 5)
     for fleet in fleet_battle:
@@ -29,11 +29,11 @@ def player_board():
     Function to create a board for the user where to place the ships
     """
     board = {
-        '1A':' ', '2A':' ', '3A':' ', '4A':' ', '5A':' ',
-        '1B':' ', '2B':' ', '3B':' ', '4B':' ', '5B':' ',
-        '1C':' ', '2C':' ', '3C':' ', '4C':' ', '5C':' ',
-        '1D':' ', '2D':' ', '3D':' ', '4D':' ', '5D':' ',
-        '1E':' ', '2E':' ', '3E':' ', '4E':' ', '5E':' ',
+        '1A': ' ', '2A': ' ', '3A': ' ', '4A': ' ', '5A': ' ',
+        '1B': ' ', '2B': ' ', '3B': ' ', '4B': ' ', '5B': ' ',
+        '1C': ' ', '2C': ' ', '3C': ' ', '4C': ' ', '5C': ' ',
+        '1D': ' ', '2D': ' ', '3D': ' ', '4D': ' ', '5D': ' ',
+        '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
     fleet_battle = []
     print('Where do you want to place your fleet of ships? You have 5 ships!\n')
@@ -74,10 +74,11 @@ def battleship_game():
     inputting the slots chosen by the user to make a guess on where the
     computer's ships could be.
     """
-    # Variables with computer's and player's boards
+       # Variables with computer's and player's boards
     name = get_playername()
     ai_board = computer_board()
     user_board = player_board()
+   
 
      # Variable to display the player's board
     display_board(user_board)
