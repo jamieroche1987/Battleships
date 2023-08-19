@@ -1,6 +1,11 @@
 import random
 import time
 
+        print("""
+Welcome To Battleship Captain!\n
+We've spotted enemies Captain on the horizon... Go sink them!
+""")
+
 
 def get_playername():
     """
@@ -174,3 +179,6 @@ def battleship_game():
         battleship_game()
     else:
         print('Thanks for Playing!')
+
+
+battleship_game()
