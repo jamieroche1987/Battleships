@@ -1,7 +1,7 @@
 import random
 import time
 
-        print("""
+    print("""
 Welcome To Battleship Captain!\n
 We've spotted enemies Captain on the horizon... Go sink them!
 """)
