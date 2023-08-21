@@ -1,17 +1,16 @@
 import random
 import time
 
-    print("""
-Welcome To Battleship Captain!\n
+        print('Welcome To Battleship Captain!\n
 We've spotted enemies Captain on the horizon... Go sink them!
-""")
+')
 
 
 def get_playername():
     """
     Function to input the user name in the game
     """
-    playername = input('Enter your name: \n')
+    playername = input('Please enter your name: \n')
     print('========================================================')
     return playername
 
@@ -28,7 +27,7 @@ def computer_board():
         '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
     fleet_battle = random.sample(board.keys(), 5)
-    for fleet in fleet_battle:
+    for fleet in fleet_battle
         board[fleet] = '@'
     return board
 
@@ -109,6 +108,7 @@ def battleship_game():
     ai_board = computer_board()
     user_board = player_board()
     hit_board = scoring_board()
+
     # Variable to display the player's board
     time.sleep(0.5)
     display_board(user_board)
@@ -170,8 +170,10 @@ def battleship_game():
         print()
         print(f'{name} ships:{player_fleet}|Computer ships:{ai_fleet}\n')
         print('====================================')
+
     # Variable to start the game again or to end it once the battle between
     #  the user and the computer has ended.
+    
     time.sleep(1)
     play_again = input('Do you want to play again? (y/n)\n')
     if play_again == 'y':
@@ -179,6 +181,5 @@ def battleship_game():
         battleship_game()
     else:
         print('Thanks for Playing!')
-
 
 battleship_game()
