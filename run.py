@@ -1,7 +1,8 @@
+# Random number
 import random
+# Pythons time module for the staggered text
 import time
-
-
+ 
 def get_playername():
     """
     Function to input the user name in the game
@@ -176,7 +177,7 @@ def battleship_game():
         battleship_game()
     else:
         print('Thanks for Playing!')
-
+print(LOGO)
 print("""
 Welcome To Battleship Captain!\n
 We've spotted enemies Captain on the horizon... Go sink them!
