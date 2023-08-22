@@ -2,26 +2,21 @@
 
 # BATTLESHIP
 
-Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
+ Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
 
 
 
 ## INITIAL IDEA CONCEPT
+
+ My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they firstly place their ships before the game starts. The computer will then randomly try to find where i have placed my ships on the gameboard.
 
 
 
 ## Flowchart
 
 
-
-#  
-
-## CONTENTS
-
-
-#
-
 ## USER STORIES
+
 1. As a user, I want to be able to add my name.
 2. As a user, I want to be able to place the ships on the board on the slots selected.
 3. As a user, I want to be able to see my fleet on the game board.
@@ -48,6 +43,7 @@ Battleship or battleships as it is also known is a strategy type guessing game f
 # TESTING
 
 ## User story testing
+
 1. As a user, I want to be able to add my name.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -125,6 +121,7 @@ Battleship or battleships as it is also known is a strategy type guessing game f
 
 
 ## LANGUAGES USED
+ Python 3
 
 
 
