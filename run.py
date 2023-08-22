@@ -1,10 +1,6 @@
 import random
 import time
 
-        print('Welcome To Battleship Captain!\n
-We've spotted enemies Captain on the horizon... Go sink them!
-')
-
 
 def get_playername():
     """
@@ -27,14 +23,14 @@ def computer_board():
         '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
     fleet_battle = random.sample(board.keys(), 5)
-    for fleet in fleet_battle
+    for fleet in fleet_battle:
         board[fleet] = '@'
     return board
 
 
 def player_board():
     """
-    Function to create a board for the user where to place the ships
+  Function to create a board for the user where to place the ships
     """
     board = {
         '1A': ' ', '2A': ' ', '3A': ' ', '4A': ' ', '5A': ' ',
@@ -43,15 +39,15 @@ def player_board():
         '1D': ' ', '2D': ' ', '3D': ' ', '4D': ' ', '5D': ' ',
         '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
-    fleet_battle = []
-    print('Where do you want to place your ships? You have 5 ships!\n')
-    print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
-    while len(fleet_battle) < 5:
+  fleet_battle = []
+         print('Where do you want to place your fleet? You have 5 ships!\n')
+         print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
+    while len(fleet_battle) < 5: 
         fleet = input('\n')
         if fleet not in board.keys():
-            print('Pay attention that\'s outside the battle zone')
+             print('Pay attention that\'s outside the battle zone')
         elif fleet in fleet_battle:
-            print('This slot is already taken')
+          print('This slot is already taken')
         else:
             fleet_battle.append(fleet)
     for fleet in fleet_battle:
@@ -61,7 +57,8 @@ def player_board():
 
 def scoring_board():
     """
-    Function to create a third board where the input of the user will display a hit or miss
+    Function to create a third board where the input of the user will be
+    displayed if it's a hit or a miss
     """
     board = {
         '1A': ' ', '2A': ' ', '3A': ' ', '4A': ' ', '5A': ' ',
@@ -75,7 +72,7 @@ def scoring_board():
 
 def display_board(board):
     """
-    Function to display the ships on the board once the user
+  Function to display the ships on the board once the user
     has selected 5 slots for 5 ships.
     """
     print('---1---2---3---4---5---')
@@ -108,7 +105,6 @@ def battleship_game():
     ai_board = computer_board()
     user_board = player_board()
     hit_board = scoring_board()
-
     # Variable to display the player's board
     time.sleep(0.5)
     display_board(user_board)
@@ -148,12 +144,12 @@ def battleship_game():
                 print(hit[0])
                 time.sleep(1)
                 if hit in ai_choice:
-                    print('Computer has hit that slot already!\n')
+                    print('Computer hit that slot already!\n')
                 elif user_board[hit[0]] == '@':
                     player_fleet -= 1
-                    print('Computer has destoyed your ship!\n')
+                    print('Computer destoyed your ship!\n')
                 else:
-                    print('Computer has missed your ships!\n')
+                    print('Computer missed your ships!\n')
                 ai_choice.append(hit)
                 break
         if ai_fleet == 0:
@@ -170,10 +166,8 @@ def battleship_game():
         print()
         print(f'{name} ships:{player_fleet}|Computer ships:{ai_fleet}\n')
         print('====================================')
-
     # Variable to start the game again or to end it once the battle between
     #  the user and the computer has ended.
-    
     time.sleep(1)
     play_again = input('Do you want to play again? (y/n)\n')
     if play_again == 'y':
@@ -181,5 +175,11 @@ def battleship_game():
         battleship_game()
     else:
         print('Thanks for Playing!')
+
+print("""
+Welcome To Battleship Captain!\n
+We've spotted enemies Captain on the horizon... Go sink them!
+""")
+
 
 battleship_game()
