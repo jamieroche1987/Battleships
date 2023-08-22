@@ -177,7 +177,6 @@ def battleship_game():
         battleship_game()
     else:
         print('Thanks for Playing!')
-print(LOGO)
 print("""
 Welcome To Battleship Captain!\n
 We've spotted enemies Captain on the horizon... Go sink them!
