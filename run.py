@@ -22,7 +22,7 @@ def computer_board():
         '1D': ' ', '2D': ' ', '3D': ' ', '4D': ' ', '5D': ' ',
         '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
-    fleet_battle = random.sample(board.keys(),5)
+    fleet_battle = random.sample(list(board.keys()), 5)
     for fleet in fleet_battle:
         board[fleet] = '@'
     return board
@@ -116,7 +116,7 @@ def battleship_game():
 
     user_choice = []
     ai_choice = []
-    while player_fleet <= 5 or ai_fleet <= 5:
+    while player_fleet > 0 and ai_fleet > 0:
         for i in user_board:
             if turn == f'{name}':
                 print('Your Turn')

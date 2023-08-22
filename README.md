@@ -6,8 +6,6 @@ Battleship or battleships as it is also known is a strategy type guessing game f
 
 
 
-
-
 ## INITIAL IDEA CONCEPT
 
 
