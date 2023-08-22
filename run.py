@@ -39,15 +39,16 @@ def player_board():
         '1D': ' ', '2D': ' ', '3D': ' ', '4D': ' ', '5D': ' ',
         '1E': ' ', '2E': ' ', '3E': ' ', '4E': ' ', '5E': ' ',
         }
-  fleet_battle = []
-         print('Where do you want to place your fleet? You have 5 ships!\n')
-         print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
+
+    fleet_battle = []
+    print('Where do you want to place your fleet? You have 5 ships!\n')
+    print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
     while len(fleet_battle) < 5: 
         fleet = input('\n')
         if fleet not in board.keys():
              print('Pay attention that\'s outside the battle zone')
         elif fleet in fleet_battle:
-          print('This slot is already taken')
+             print('This slot is already taken')
         else:
             fleet_battle.append(fleet)
     for fleet in fleet_battle:
