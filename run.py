@@ -141,7 +141,7 @@ def battleship_game():
         for i in ai_board:
             if turn == 'Computer':
                 print('Computer Turn')
-                hit = random.sample(user_board.keys(), 1)
+                hit = random.sample(list(user_board.keys()), 1)
                 print(hit[0])
                 time.sleep(1)
                 if hit in ai_choice:
