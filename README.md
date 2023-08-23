@@ -1,6 +1,6 @@
 # PORTFOLIO PROJECT - 3
 
-# BATTLESHIP
+# BATTLESHIPS
 
  Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
 
@@ -90,6 +90,14 @@
 
 ### Future features:
 
+ * Add the abilty to make the game 2 player game. This would then allow friends to play against eachother rather than the user only having the option to player against the computer.
+
+ * Add a pyfiglet feature at the top of the page for the header to make the game more appealing on the eye.
+
+ * Add a feature that would allow the player to decide the size of the board in which they could play on.
+
+ * Adding a board size bigger then the current one would allow the user to have more ships on the board.
+
 
 
 ### Typography
@@ -173,7 +181,7 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Unsolved bugs and errors
 
-* No bugs or errors are present
+    * No bugs or errors are present
 
 # TECHNOLOGIES
 
