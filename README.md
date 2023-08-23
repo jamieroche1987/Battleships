@@ -38,17 +38,19 @@
 
 * Shows a welcome message to the user
 
+<img src="assets/welcome-message.png">
+
 ### Enter your Name
 
  * The User is able to enter the name that will be displayed in the game.
 
-<img src="">
+<img src="assets/enter-name.png">
 
 ### Place the fleet
 
  * The user is able to place 5 ships on the board.
 
-<img src="">
+<img src="assets/user-ship-entry.png">
 
 ### User Turn
 
@@ -56,9 +58,14 @@
  * Displays a message to the user as a result of the turn.
  * Displays the board with an '0' for missing the ship and an 'X' for destroying one.
 
+ <img src="assets/user-result-of-shot.png">
+ <img src="assets/">
+
 ### Remaining ships
 
  * Displays the remaining ships after every turn by the user and computer
+
+ <img src="assets/ships-remaining.png">
 
 ### Computer Turn
 
@@ -72,7 +79,7 @@
 
  * Displays a message with the winner of the battle once one of the player has destroyed the fleet of the other player.
 
-<img src="">
+<img src="assets/game-won-message.png">
 
 ### Restart game 
 
@@ -80,14 +87,14 @@
  * User can decide to play again ot to end the game
  * Restart the game
 
-<img src="">
+<img src="assets/play-again-message.png">
 
 
 ### User Input Validation
 
  * Displays a message to the user for a wrong input.
 
-<img src="">
+<img src="assets/entry-error.png">
 
 ### Future features:
 
@@ -168,7 +175,6 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 
 ![PEP8 Results](assets/pep8-validation.png)
-
 
 ## Solved bugs and errors
 
@@ -297,11 +303,13 @@ If you need to make a local clone:
 
 ### CODE
 
-* Dan for his input on how to fix certain errors of code that i was struggling with
-* Jamie
+* Dan for his input on how to fix certain errors of code that i was struggling with.
+* Jamie for his help in identifying errors in my indentation that i hadnt seen.
 * [W3Schools](https://www.w3schools.com/) for information on python functions and how they can be implemented
 * [Stackoverflow](https://stackoverflow.com/search?q=battleship+python&s=f5b5700f-8508-47e8-8ac9-e2b10fccbd7e) 
 
 
 
 ## ACKNOWLEDGEMENTS:
+
+*
