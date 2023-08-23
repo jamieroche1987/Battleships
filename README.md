@@ -4,12 +4,16 @@
 
  Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
 
+ 
+<img src="assets/amiresponsive.png"> 
+
 
 
 ## INITIAL IDEA CONCEPT
 
  My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they firstly place their ships before the game starts. The computer will then randomly try to find where i have placed my ships on the gameboard.
 
+ * Here is a link to the [final project](https://battleship-1987-509de5bf3d9c.herokuapp.com/)
 
 
 ## Flowchart
@@ -30,7 +34,59 @@
 
 ## FEATURES
 
+### Welcome Message
 
+* Shows a welcome message to the user
+
+### Enter your Name
+
+ * The User is able to enter the name that will be displaied in the game.
+
+<img src="assets/welcome-page.png">
+
+### Place the fleet
+
+ * The user is able to place 5 ships on the board.
+
+<img src="assets/slots-selected.png">
+
+### User Turn
+
+ * The user selects a slot on the board trying to guess where the computer fleet is.
+ * Displays a message to the user as a result of the turn.
+ * Displays the board with an '0' for missing the ship and an 'X' for destroying one.
+
+### Remaining ships
+
+ * Displays the remaining ships after every turn
+
+### Computer Turn
+
+ * Displays the guess made by the computer.
+ * Displays a message with the result of the guess made by the computer.
+ * Displays the result after the computer turn.
+
+<img src="assets/slots-selected.png">
+
+### Final Result
+
+ * Displays a message with the winner of the battle once one of the player has destroyed the fleet of the other player.
+<img src="assets/game-over.png">
+
+### Restart game 
+
+ * Asks the user to play again or to end the game.
+ * User can decide to play again ot to end the game.
+ * Restart the game
+
+<img src="assets/restart.png">
+
+
+### User Input Validation
+
+ * Displays a message to the user for a wrong input.
+
+<img src="assets/wrong-placement-user.png">
 
 ### Future features:
 
@@ -38,7 +94,7 @@
 
 ### Typography
 
-# 
+ * Standard terminal font which cannot be changed
 
 # TESTING
 
@@ -121,7 +177,7 @@
 
 
 ## LANGUAGES USED
- Python 3
+ * Python 3
 
 
 
