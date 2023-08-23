@@ -294,9 +294,13 @@ If you need to make a local clone:
 
 ## CREDITS AND REFERENCES
 
-
-
 ### CODE
+
+* Dan for his input on how to fix certain errors of code that i was struggling with
+* Jamie for his help in solving the random.sample error that i could get my head around.
+* [W3Schools](https://www.w3schools.com/) for information on python functions and how they can be implemented
+- [Stackoverflow](https://stackoverflow.com/search?q=tic+tac+toe+javascript) 
+
 
 
 ## ACKNOWLEDGEMENTS:
