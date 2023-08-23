@@ -73,7 +73,7 @@
  * Displays a message with the result of the guess made by the computer.
  * Displays the result after the computer turn.
 
-<img src="">
+<img src="assets/computer-turn.png">
 
 ### Final Result
 
@@ -97,6 +97,7 @@
 <img src="assets/entry-error.png">
 <img src="assets/shot-entry-already-message.png">
 <img src="assets/wrong-data-input-message.png">
+
 ### Future features:
 
  * Add the abilty to make the game 2 player game. This would then allow friends to play against eachother rather than the user only having the option to player against the computer.
@@ -179,7 +180,7 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Solved bugs and errors
 
- * Throughout the development of this project, several automated errors have been fixed eg:
+  * Throughout the development of this project, several automated errors have been fixed eg:
 
     * Indentation errors
     * Not enough whitespace between functions
@@ -189,7 +190,7 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Unsolved bugs and errors
 
-    * No bugs or errors are present
+ * No bugs or errors are present
 
 # TECHNOLOGIES
 
@@ -307,7 +308,7 @@ If you need to make a local clone:
 * Dan for his input on how to fix certain errors of code that i was struggling with.
 * Jamie for his help in identifying errors in my indentation that i hadnt seen.
 * [W3Schools](https://www.w3schools.com/) for information on python functions and how they can be implemented
-* [Stackoverflow](https://stackoverflow.com/search?q=battleship+python&s=f5b5700f-8508-47e8-8ac9-e2b10fccbd7e) 
+* [Stackoverflow](https://stackoverflow.com/search?q=battleship+python&s=f5b5700f-8508-47e8-8ac9-e2b10fccbd7e) for methods of how to implement certain features of python for my projectas well as how to correct incorrect coding errors.
 
 
 
