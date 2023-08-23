@@ -59,7 +59,7 @@
  * Displays the board with an '0' for missing the ship and an 'X' for destroying one.
 
  <img src="assets/user-result-of-shot.png">
- <img src="assets/">
+
 
 ### Remaining ships
 
@@ -95,7 +95,8 @@
  * Displays a message to the user for a wrong input.
 
 <img src="assets/entry-error.png">
-
+<img src="assets/shot-entry-already-message.png">
+<img src="assets/wrong-data-input-message.png">
 ### Future features:
 
  * Add the abilty to make the game 2 player game. This would then allow friends to play against eachother rather than the user only having the option to player against the computer.
