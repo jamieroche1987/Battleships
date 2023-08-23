@@ -41,13 +41,13 @@
 
  * The User is able to enter the name that will be displayed in the game.
 
-<img src="assets/welcome-page.png">
+<img src="">
 
 ### Place the fleet
 
  * The user is able to place 5 ships on the board.
 
-<img src="assets/slots-selected.png">
+<img src="">
 
 ### User Turn
 
@@ -65,13 +65,13 @@
  * Displays a message with the result of the guess made by the computer.
  * Displays the result after the computer turn.
 
-<img src="assets/slots-selected.png">
+<img src="">
 
 ### Final Result
 
  * Displays a message with the winner of the battle once one of the player has destroyed the fleet of the other player.
 
-<img src="assets/game-over.png">
+<img src="">
 
 ### Restart game 
 
@@ -79,14 +79,14 @@
  * User can decide to play again ot to end the game
  * Restart the game
 
-<img src="assets/restart.png">
+<img src="">
 
 
 ### User Input Validation
 
  * Displays a message to the user for a wrong input.
 
-<img src="assets/wrong-placement-user.png">
+<img src="">
 
 ### Future features:
 
@@ -166,12 +166,12 @@
 PEP8 online was used to check the code for PEP8 requirements.
 
 
-![PEP8 Results](assets/pep8.png)
+![PEP8 Results](assets/)
 
 
 ## Solved bugs and errors
 
-* Throughout the development of this project, several automated errors have been fixed eg:
+ * Throughout the development of this project, several automated errors have been fixed eg:
 
     * Indentation errors
     * Not enough whitespace between functions
@@ -187,9 +187,9 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## DEVELOPMENT
 
-* The project was written and tested using [Gitpod](https://gitpod.io/)
-* The project uses [Github](https://github.com/) for utilising git version control
-* The project was deployed via [Heroku](https://heroku.com/)
+ * The project was written and tested using [Gitpod](https://gitpod.io/)
+ * The project uses [Github](https://github.com/) for utilising git version control
+ * The project was deployed via [Heroku](https://heroku.com/)
 
 ## LANGUAGES USED
 
@@ -297,9 +297,9 @@ If you need to make a local clone:
 ### CODE
 
 * Dan for his input on how to fix certain errors of code that i was struggling with
-* Jamie for his help in solving the random.sample error that i could get my head around.
+* Jamie
 * [W3Schools](https://www.w3schools.com/) for information on python functions and how they can be implemented
-- [Stackoverflow](https://stackoverflow.com/search?q=tic+tac+toe+javascript) 
+* [Stackoverflow](https://stackoverflow.com/search?q=battleship+python&s=f5b5700f-8508-47e8-8ac9-e2b10fccbd7e) 
 
 
 
