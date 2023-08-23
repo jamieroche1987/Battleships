@@ -1,4 +1,6 @@
+# Random number
 import random
+# Pythons time module for the staggered text
 import time
 
 
@@ -42,7 +44,7 @@ def player_board():
 
     fleet_battle = []
     print('Where do you want to place your fleet? You have 5 ships!\n')
-    print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
+    print('You must choose a number(1 to 5) and a capital letter(A to E). Example: 2D')
     while len(fleet_battle) < 5:
         fleet = input('\n')
         if fleet not in board.keys():
