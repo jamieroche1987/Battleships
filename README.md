@@ -163,8 +163,16 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Solved bugs and errors
 
+* Throughout the development of this project, several automated errors have been fixed eg:
+
+    * Indentation errors
+    * Not enough whitespace between functions
+    * No new line at end of file
+    
+
 
 ## Unsolved bugs and errors
+
 
 
 # TECHNOLOGIES
