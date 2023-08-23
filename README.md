@@ -173,7 +173,7 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Unsolved bugs and errors
 
-
+* No bugs or errors are present
 
 # TECHNOLOGIES
 
