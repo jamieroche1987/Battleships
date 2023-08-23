@@ -175,8 +175,8 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## LIBRARIES USED
 
-[random](https://docs.python.org/3/library/random.html) to generate the computers placement of ships
-[time](https://www.programiz.com/python-programming/time) for text delays between user and computer moves
+ * [random](https://docs.python.org/3/library/random.html) to generate the computers placement of ships
+ * [time](https://www.programiz.com/python-programming/time) for text delays between user and computer moves
 
 # DEPLOYMENT
 
