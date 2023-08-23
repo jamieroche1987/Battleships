@@ -31,7 +31,6 @@
 8. As a user, i want to be able to play the game again once the game is complete.
 
 
-
 ## FEATURES
 
 ### Welcome Message
@@ -40,7 +39,7 @@
 
 ### Enter your Name
 
- * The User is able to enter the name that will be displaied in the game.
+ * The User is able to enter the name that will be displayed in the game.
 
 <img src="assets/welcome-page.png">
 
@@ -58,7 +57,7 @@
 
 ### Remaining ships
 
- * Displays the remaining ships after every turn
+ * Displays the remaining ships after every turn by the user and computer
 
 ### Computer Turn
 
@@ -71,12 +70,13 @@
 ### Final Result
 
  * Displays a message with the winner of the battle once one of the player has destroyed the fleet of the other player.
+
 <img src="assets/game-over.png">
 
 ### Restart game 
 
- * Asks the user to play again or to end the game.
- * User can decide to play again ot to end the game.
+ * Asks the user to play again or to end the game
+ * User can decide to play again ot to end the game
  * Restart the game
 
 <img src="assets/restart.png">
@@ -153,12 +153,13 @@
 
 ## Validation
 
+### PEP8 Online Validation
+
+PEP8 online was used to check the code for PEP8 requirements.
 
 
+![PEP8 Results](assets/pep8.png)
 
-## Manual testing
-
--
 
 ## Solved bugs and errors
 
@@ -166,30 +167,21 @@
 ## Unsolved bugs and errors
 
 
-
-
-#
 # TECHNOLOGIES
 
-## DEVELOPMENT
-
-
-
-
 ## LANGUAGES USED
+
  * Python 3
-
-
 
 ## LIBRARIES USED
 
 
-#
+
+
+
 # DEPLOYMENT
 
 
-
-#
 ## CREDITS AND REFERENCES
 
 
@@ -197,6 +189,4 @@
 ### CODE
 
 
-
-#
 ## ACKNOWLEDGEMENTS:
