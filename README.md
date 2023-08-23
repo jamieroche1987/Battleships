@@ -169,6 +169,12 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 # TECHNOLOGIES
 
+## DEVELOPMENT
+
+* The project was written and tested using [Gitpod](https://gitpod.io/)
+* The project uses [Github](https://github.com/) for utilising git version control
+* The project was deployed via [Heroku](https://heroku.com/)
+
 ## LANGUAGES USED
 
  * Python 3
