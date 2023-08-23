@@ -18,6 +18,7 @@
 
 ## Flowchart
 
+<img src="assets/flowchart.png">
 
 ## USER STORIES
 
@@ -166,7 +167,7 @@
 PEP8 online was used to check the code for PEP8 requirements.
 
 
-![PEP8 Results](assets/)
+![PEP8 Results](assets/pep8-validation.png)
 
 
 ## Solved bugs and errors
