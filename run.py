@@ -1,6 +1,4 @@
-# Random number
 import random
-# Pythons time module for the staggered text
 import time
 
 
@@ -44,16 +42,16 @@ def player_board():
 
     fleet_battle = []
     print('Where do you want to place your fleet? You have 5 ships!\n')
-    print('You must choose a number(1 to 5) and a letter(A to E).Example: 2D')
-    if len(fleet_battle) < 5:
+    print('You must choose a number(1 to 5) and a letter(A to E). Example: 2D')
+    while len(fleet_battle) < 5:
         fleet = input('\n')
-    if fleet not in board.keys():
-    print('Pay attention that\'s outside the battle zone')
-    elif fleet in fleet_battle:
-    print('This slot is already taken')
-    else:
-        fleet_battle.append(fleet)
-    for  in fleet_battle:
+        if fleet not in board.keys():
+            print('Pay attention that\'s outside the battle zone')
+        elif fleet in fleet_battle:
+            print('This slot is already taken')
+        else:
+            fleet_battle.append(fleet)
+    for fleet in fleet_battle:
         board[fleet] = '@'
     return board
 
@@ -140,12 +138,19 @@ def battleship_game():
                 display_board(hit_board)
                 break
         time.sleep(1.5)
+
         for i in ai_board:
+
             if turn == 'Computer':
+
                 print('Computer Turn')
+
                 hit = random.sample(list(user_board.keys()), 1)
+
                 print(hit[0])
+
                 time.sleep(1)
+
                 if hit in ai_choice:
                     print('Computer hit that slot already!\n')
                 elif user_board[hit[0]] == '@':
