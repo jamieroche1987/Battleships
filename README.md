@@ -13,7 +13,7 @@
 
 ## INITIAL IDEA CONCEPT
 
- My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they place their ships before the game starts. The computer will then randomly try to find where i have placed my ships on the gameboard.
+ My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they place their ships before the game starts. The user and the computer will then take it in turns to tru and guess where they have placed their ships.
 
  * Here is a link to the [final project](https://battleship-1987-509de5bf3d9c.herokuapp.com/)
 
@@ -52,7 +52,10 @@
 
  * The user is able to place 5 ships on the board.
 
-<img src="assets/user-ship-entry.png>
+ <img src="assets/user-ship-entry.png">
+
+
+
 
 ### User Turn
 
