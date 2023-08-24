@@ -7,7 +7,7 @@
  
 <img src="assets/amiresponsive.png">  
 
-[am i responsive](https://amiresponsive.co.uk/)
+[Am I Responsive](https://amiresponsive.co.uk/)
 
 
 
@@ -61,6 +61,8 @@
  * Displays the board with an '0' for missing the ship and an 'X' for destroying a ship.
 
  <img src="assets/user-result-of-shot.png">
+ <img src="assets/ship-hit-message.png">
+ <img src="assets/missed-message.png">
 
 
 ### Remaining ships
@@ -90,6 +92,7 @@
  * Restart the games by asking the user to insert their name again
 
 <img src="assets/play-again-message.png">
+<img src="assets/thanks-for-playing-message.png">
 
 
 ### User Input Validation
