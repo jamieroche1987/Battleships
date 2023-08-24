@@ -193,7 +193,7 @@ We've spotted enemies Captain on the horizon... Go sink them!
 """)
 
 
-def get_playername()
+def get_playername():
 
 
 battleship_game()
