@@ -2,17 +2,18 @@
 
 # BATTLESHIPS
 
- Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of warships are marked. The locations of the fleets are concealed from the other player.
+ Battleship or battleships as it is also known is a strategy type guessing game for two players (or in this case 1 player and the computer). It is played on ruled grids on which each player's fleet of battleships are marked. The locations of the fleets are concealed from the other player.
 
  
 <img src="assets/amiresponsive.png">  
-[amiresponsive](https://amiresponsive.co.uk/)
+
+[am i responsive](https://amiresponsive.co.uk/)
 
 
 
 ## INITIAL IDEA CONCEPT
 
- My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they firstly place their ships before the game starts. The computer will then randomly try to find where i have placed my ships on the gameboard.
+ My initial idea for the project was to create the traditional game of battleships where the user will play against the computer and the computer will randomly select where they place their ships before the game starts. The computer will then randomly try to find where i have placed my ships on the gameboard.
 
  * Here is a link to the [final project](https://battleship-1987-509de5bf3d9c.herokuapp.com/)
 
@@ -28,8 +29,8 @@
 3. As a user, I want to be able to see my fleet on the game board.
 4. As a user, I want to be able to see how many ships are remaining after every turn.
 5. As a user, I want to be able to see on the board when I hit or miss the computer fleet.
-6. As a user, I want to be able to see the computers chioces and the result.
-7. As a user, I want to be able to see who won the game.
+6. As a user, I want to be able to see the computers choices and the result.
+7. As a user, I want to be able to see who has won the game.
 8. As a user, i want to be able to play the game again once the game is complete.
 
 
@@ -56,8 +57,8 @@
 ### User Turn
 
  * The user selects a slot on the board trying to guess where the computer fleet is.
- * Displays a message to the user as a result of the turn.
- * Displays the board with an '0' for missing the ship and an 'X' for destroying one.
+ * Displays a message to the user as a result of their turn.
+ * Displays the board with an '0' for missing the ship and an 'X' for destroying a ship.
 
  <img src="assets/user-result-of-shot.png">
 
@@ -72,21 +73,21 @@
 
  * Displays the guess made by the computer.
  * Displays a message with the result of the guess made by the computer.
- * Displays the result after the computer turn.
+ * Displays the result after the computer's turn.
 
 <img src="assets/computer-turn.png">
 
 ### Final Result
 
- * Displays a message with the winner of the battle once one of the player has destroyed the fleet of the other player.
+ * Displays a message with the winner of the battle once the user or computer has destroyed the fleet of the other player.
 
 <img src="assets/game-won-message.png">
 
 ### Restart game 
 
  * Asks the user to play again or to end the game
- * User can decide to play again ot to end the game
- * Restart the game
+ * User can decide to play again or to end the game
+ * Restart the games by asking the user to insert their name again
 
 <img src="assets/play-again-message.png">
 
@@ -101,13 +102,15 @@
 
 ### Future features:
 
- * Add the abilty to make the game 2 player game. This would then allow friends to play against eachother rather than the user only having the option to player against the computer.
+ * Add the abilty to make the game a 2 player game. This would then allow friends to play against eachother rather than the user only having the option to player against the computer.
 
  * Add a pyfiglet feature at the top of the page for the header to make the game more appealing on the eye.
 
  * Add a feature that would allow the player to decide the size of the board in which they could play on.
 
- * Adding a board size bigger then the current one would allow the user to have more ships on the board.
+ * Adding a board size bigger then the current one would  allow the user to have more ships on the board.
+
+ * Adding a feature to allow a different amount of ships to play with.
 
 
 
@@ -154,7 +157,7 @@
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Computer Turn | The computer chooses randomly a slot on the board to guess where the user fleet is | Displays the guess made by the computer, and the result | Works as expected |
+| Computer Turn | The computer chooses randomly a slot on the board to guess where the user fleet are located | Displays the guess made by the computer, and the result | Works as expected |
 
 
 7. As a user, I want to be able to see who won the game.
@@ -181,11 +184,12 @@ PEP8 online was used to check the code for PEP8 requirements.
 
 ## Solved bugs and errors
 
-  * Throughout the development of this project, several automated errors have been fixed eg:
+* Throughout the development of this project, several automated errors have been fixed eg:
 
-    * Indentation errors
-    * Not enough whitespace between functions
-    * No new line at end of file
+  * Indentation errors
+  * Not enough whitespace between functions
+  * No new line at end of file
+  * Syntax errors
     
 
 
@@ -237,8 +241,7 @@ PEP8 online was used to check the code for PEP8 requirements.
 17. When the search is complete, click `connect`.
 18. Once your repository is connected to [Heroku](https://heroku.com/), Click the `Enable Automatic Deploys` button for automatic deployment.
 19. Alternatively you can manually deploy by selecting a branch to deploy from and clicking `Deploy Branch`.
-20. If you choose to `Enable Automatic Deploys`, [Heroku](https://heroku.com/) will build a new version of the app when a change to 
-    `gitpod` is pushed to `Github`.  
+20. If you choose to `Enable Automatic Deploys`, [Heroku](https://heroku.com/) will build a new version of the app when a change to `gitpod` is pushed to `Github`.  
 21. Manual deployment allows you to update the app whenever you click `Deploy Branch`.
     In the case of this project, I chose to `Enable Automatic Deploys` to ensure the code was deployed straight away at each push from `Gitpod`.
 22. Once the build process is complete (this can take a few seconds) you will then be able to view the live app by clicking on the button `View`
