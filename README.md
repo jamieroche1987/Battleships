@@ -52,7 +52,7 @@
 
  * The user is able to place 5 ships on the board.
 
-<img src="assets/user-ship-entry.png">
+<img src="assets/user-ship-entry.png>
 
 ### User Turn
 
@@ -326,4 +326,4 @@ If you need to make a local clone:
 Thank you Runa i truly appreciate it 
 * My mentor Alex for always being supportive and giving me great advice when issues kept arising along the journey of building this project. Thank you Alex for always being there when times weren't the easiest.
 * Jason from Tutor assistance who pointed me in the direction of Gitpod when my CodeAnywhere workspace decided it was not going work half way through my project. Thank you Jason
-* Kieron from Student care who extended my deadline day after not having access to internet for 2 weeks during learning and building of this project. Also taking into account i didnt have any access to my workspace when i was buliding my project for several days after i finally managed to access internet again. Thank you Kieron for you undersThankanding and help to give me the best chance i could to complete this project.
+* Kieron from Student care who extended my deadline day after not having access to internet for 2 weeks during the learning and building of this project. Also taking into account i didnt have any access to my workspace when i was buliding my project for several days after i finally managed to access internet again. Thank you Kieron for you undersThankanding and help to give me the best chance i could to complete this project.
