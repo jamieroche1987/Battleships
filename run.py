@@ -44,7 +44,7 @@ def player_board():
 
     fleet_battle = []
     print('Where do you want to place your fleet? You have 5 ships!\n')
-    print('You must choose a number(1 to 5) and a capital letter(A to E). Example: 2D')
+    print('You must pick a number(1 - 5)& capital letter(A - E). Example: 2D')
     while len(fleet_battle) < 5:
         fleet = input('\n')
         if fleet not in board.keys():
@@ -191,6 +191,9 @@ print("""
 Welcome To Battleship Captain!\n
 We've spotted enemies Captain on the horizon... Go sink them!
 """)
+
+
+def get_playername()
 
 
 battleship_game()
