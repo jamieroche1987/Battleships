@@ -316,9 +316,14 @@ If you need to make a local clone:
 * Jamie for his help in identifying errors in my indentation that i hadnt seen.
 * [W3Schools](https://www.w3schools.com/) for information on python functions and how they can be implemented
 * [Stackoverflow](https://stackoverflow.com/search?q=battleship+python&s=f5b5700f-8508-47e8-8ac9-e2b10fccbd7e) for methods of how to implement certain features of python for my projectas well as how to correct incorrect coding errors.
+* Everyone on the Code institute Slack community for all the help and guidance with code queries i when i was building this project
 
 
 
 ## ACKNOWLEDGEMENTS:
 
-*
+* My partner Runa for her continued support while this project has hit alot of issues along the way causing alot of stressful days. Her positivity and encouragement has been something i needed a few times along the way when it seemed all was lost.
+Thank you Runa i truly appreciate it 
+* My mentor Alex for always being supportive and giving me great advice when issues kept arising along the journey of building this project. Thank you Alex for always being there when times weren't the easiest.
+* Jason from Tutor assistance who pointed me in the direction of Gitpod when my CodeAnywhere workspace decided it was not going work half way through my project. Thank you Jason
+* Kieron from Student care who extended my deadline day after not having access to internet for 2 weeks during learning and building of this project. Also taking into account i didnt have any access to my workspace when i was buliding my project for several days after i finally managed to access internet again. Thank you Kieron for you undersThankanding and help to give me the best chance i could to complete this project.
